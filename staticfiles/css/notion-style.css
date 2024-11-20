@@ -1,0 +1,101 @@
+/* General Styling */
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #f7f7f8;
+    color: #2e2e2e;
+    line-height: 1.6;
+}
+
+/* Header */
+header h1 {
+    font-size: 3rem;
+    color: #1a1a1a;
+}
+
+header p {
+    color: #4a4a4a;
+}
+
+/* Skills Section */
+.skills h3 {
+    color: #1a1a1a;
+}
+
+.badge {
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+/* Footer */
+/* Footer Styling */
+footer {
+  font-family: "Inter", sans-serif;
+  background-color: #ffffff; /* Subtle gray, similar to Notion */
+  border-top: 1px solid #e5e7eb; /* Light gray border */
+}
+
+footer p {
+  color: #6b7280; /* Muted gray text */
+  margin-bottom: 0;
+}
+
+footer a {
+  color: #6b7280; /* Muted gray text for links */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #2e76cb; /* Subtle blue hover effect */
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+footer ul li a {
+  font-size: 0.875rem;
+}
+
+/* Navbar Styling */
+.navbar {
+    font-family: "Inter", sans-serif;
+    background-color: #ffffff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+.navbar-brand:hover {
+    color: #212529;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    color: #6b7280;
+    margin-left: 1rem;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    color: #212529;
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.job {
+    font-size: 26px;
+}
