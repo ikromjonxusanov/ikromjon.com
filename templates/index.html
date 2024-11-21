@@ -2,7 +2,7 @@
 {% load static %}
 {% block content %}
     <!-- Profile Section -->
-    <section>
+    <section class="text-center">
         <img src="{% static 'images/me.png' %}" alt="Ikromjon" width="170px" class="rounded-circle mb-3">
         <h2 class="fw-bold mb-1">Ikromjon Xusanov</h2>
         <p class="text-muted job">Software Engineer</p>
@@ -13,7 +13,7 @@
         </div>
         <div class="mt-4">
             <a href="#" class="btn btn-dark px-4">Read Blog</a>
-            <a href="#" class="btn btn-outline-dark px-4">About Me</a>
+            <a href="{% url 'about' %}" class="btn btn-outline-dark px-4">About Me</a>
         </div>
     </section>
 
