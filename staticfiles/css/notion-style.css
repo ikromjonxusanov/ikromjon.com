@@ -1138,3 +1138,6 @@ article pre {
 p {
     font-size: 22px !important;
 }
+img {
+  max-width: 100% !important;
+}
