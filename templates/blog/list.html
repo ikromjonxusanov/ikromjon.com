@@ -5,7 +5,9 @@
             <a href="{% url 'blog-detail' blog.pk %}" class="text-black h3 fw-bold">
                 <li class="col-lg-4 cold-md-6 col-12 w-100 list-group-item border-1 rounded mb-3">
                     <i class="fa-regular fa-newspaper"></i>
-                    {{ blog.title }}
+                    <span class="mx-2">
+                        {{ blog.title }}
+                    </span>
                 </li>
             </a>
         {% endfor %}

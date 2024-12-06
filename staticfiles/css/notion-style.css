@@ -1340,6 +1340,17 @@ img {
     max-width: 100% !important;
 }
 
-#content {
-    min-height: 459px!important;
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+}
+
+.list-group {
+    margin-bottom: 6rem;
+}
+.row {
+    margin-bottom: 3rem;
 }
