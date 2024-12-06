@@ -3,6 +3,9 @@ from django.shortcuts import render, get_object_or_404
 from core.models import Project, Blog
 
 
+def mailru(request):
+    return render(request, 'mailru-domainSDLqlPJ857jj3Q5R.html')
+
 def home(request):
     return render(request, 'index.html')
 
