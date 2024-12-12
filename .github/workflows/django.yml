@@ -28,3 +28,11 @@ jobs:
     - name: Run Tests
       run: |
         python manage.py test
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Deploy to Production
+      run: |
+        systemctl restart ikromjon.com
