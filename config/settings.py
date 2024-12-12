@@ -6,7 +6,8 @@ environ.Env.read_env()
 
 env = environ.Env(
     DEBUG=(bool, False),
-    SECRET_KEY=(str, 'secret_key')
+    SECRET_KEY=(str, 'secret_key'),
+    ALLOWED_HOSTS=(list, ['localhost', '127.0.0.1'])
 )
 
 BASE_DIR = Path(__file__).resolve().parent.parent
