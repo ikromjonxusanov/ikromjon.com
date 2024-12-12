@@ -1340,13 +1340,13 @@ img {
     max-width: 100% !important;
 }
 
-footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   text-align: center;
-}
+/*footer {*/
+/*   position: fixed;*/
+/*   left: 0;*/
+/*   bottom: 0;*/
+/*   width: 100%;*/
+/*   text-align: center;*/
+/*}*/
 
 .list-group {
     margin-bottom: 6rem;

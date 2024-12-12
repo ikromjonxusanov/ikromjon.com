@@ -35,4 +35,4 @@ jobs:
     steps:
     - name: Deploy to Production
       run: |
-        systemctl restart ikromjon.com
+        sudo systemctl restart ikromjon.com
