@@ -53,7 +53,6 @@ export const DATA = {
         name: "Send Email",
         url: "mailto:ikromjohnkhusanov@gmail.com",
         icon: Icons.email,
-
         navbar: true,
       },
     },
@@ -69,7 +68,12 @@ export const DATA = {
       logoUrl: "",
       start: "May 2024",
       end: "Present",
-      description: ""
+      description: [
+        "Implemented multi-payment functionality, allowing users to save their bank cards for seamless future transactions.",
+        "Ensured secure payment processing using Payme’s API, handling transactions efficiently in Python.",
+        "Migrated a polling-based Telegram bot to a webhook architecture, improving performance by 10-100x.",
+        "Implemented a CI/CD pipeline, streamlining deployment and reducing deployment time by 80–90%"
+      ]
         // "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
     },
     {
@@ -81,7 +85,13 @@ export const DATA = {
       logoUrl: "/zk.jpeg",
       start: "October 2022",
       end: "April 2023",
-      description: "",
+      description: [
+        "Optimized orm queries, speeding up product placement in the Warehouse by 40x.",
+        "Migrated a chat service from Golang to Python, making it easier to maintain and integrate with existing systems.",
+        "Recovering the aggregate data that has been lost in the Database by reading documents using a script in Python.",
+        "Reduced a debt calculation time from 1 minute to under 8 seconds by optimizing SQL queries.",
+        "Helped over five interns to enhance their problem-solving and teamwork skills."
+      ],
         // "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
     },
     {
@@ -93,7 +103,11 @@ export const DATA = {
       logoUrl: "/naqsh.jpeg",
       start: "May 2022",
       end: "September 2022",
-      description: "",
+      description: [
+        "Developed a backend for an education startup project",
+        "Implemented video streaming solutions that reduced loading times in Python.",
+        "Developed features to prevent downloading the videos"
+      ],
         // "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
     },
     {
@@ -105,8 +119,12 @@ export const DATA = {
       logoUrl: "/al-jabr.png",
       start: "July 2021",
       end: "April 2022",
-      description: "",
-        // "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
+      description: [
+        "Helping over 15 peers to develop backend applications",
+        "Developed a backend for a task management system & freelance platform",
+        "Integrated OTP verification with local SMS services to improve user authentication and security.",
+        "Participated in training sessions to enhance skills in areas such as communication, problem-solving, and time management"
+      ]
     }
   ],
   education: [
@@ -116,7 +134,7 @@ export const DATA = {
       degree: "Bachelor's Degree of Computer Science (BCS)",
       logoUrl: "/pjatk.jpg",
       start: "2024",
-      end: "present",
+      end: "present"
     }
   ],
   // projects: [
