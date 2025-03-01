@@ -14,11 +14,14 @@ export const DATA = {
   avatarUrl: "/me.png",
   skills: [
     "Python",
-    "Go",
+    "Django",
+    "API",
     "Postgres",
     "Docker",
     "Java",
     "C++",
+    "Redis",
+    "Celery"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
